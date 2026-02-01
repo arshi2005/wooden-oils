@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop Oils</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">WoodenPress</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<section class="products">
+  <h2>Cooking Oils</h2>
+  <div class="grid">
+
+    <div class="product">
+      <h3>Groundnut Oil</h3>
+      <p>₹450 / litre</p>
+      <button onclick="addToCart('Groundnut Oil',450)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Sesame Oil</h3>
+      <p>₹520 / litre</p>
+      <button onclick="addToCart('Sesame Oil',520)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Coconut Oil</h3>
+      <p>₹480 / litre</p>
+      <button onclick="addToCart('Coconut Oil',480)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<script src="cart.js"></script>
+</body>
+</html>
