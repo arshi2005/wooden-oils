@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #2e2e2e;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+}
+
+.hero {
+  padding: 80px;
+  background: #f6f3ee;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #2f7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+section {
+  padding: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card, .product {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2f7d32;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-top: 1px solid #eee;
+}
